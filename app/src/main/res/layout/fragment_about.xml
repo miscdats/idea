@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/titleView"
+        tools:text="Hello World"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/jomolhari"
+        android:text="about the app"
+        android:textSize="40dp"
+        android:layout_margin="5dp"
+        />
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <TextView
+        android:id="@+id/aboutView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jomolhari"
+        android:text=" I*d*ea app allows users to save (swipe right) or reject (swipe left) other images, and allows users to accumulate liked designs in the app."
+        android:layout_margin="5dp"
+        android:textSize="25dp" />
+
+
+
+</android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
